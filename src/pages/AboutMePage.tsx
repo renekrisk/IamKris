@@ -366,16 +366,15 @@ export const AboutMePage: React.FC = () => {
               <p>Still trying.</p>
               <p>Still loving.</p>
               <p>Still building.</p>
-              <p>Still becoming.</p>
             </div>
             <p>And perhaps that is the most honest thing I can tell you.</p>
 
-            <div className="pt-20 sm:pt-28 space-y-4">
-              <p className="text-4xl sm:text-6xl md:text-7xl font-normal tracking-tightest text-ink">
-                I am still becoming.
-              </p>
-              <p className="font-mono text-base sm:text-lg tracking-widest text-ink-tertiary">
-                — Kris
+            <div className="pt-20 sm:pt-28 space-y-6">
+              <blockquote className="text-2xl sm:text-4xl md:text-5xl font-normal tracking-tight leading-tight text-ink italic max-w-2xl">
+                "It's only after we've lost everything that we're free to do anything."
+              </blockquote>
+              <p className="font-mono text-sm sm:text-base tracking-widest text-ink-tertiary">
+                — Brad Pitt, <span className="italic">Fight Club</span>
               </p>
             </div>
           </div>
