@@ -6,375 +6,345 @@ export const AboutMePage: React.FC = () => {
       <div className="max-w-3xl mx-auto px-6 sm:px-8 md:px-12">
 
         {/* Hero Title & Intro Labels */}
-        <div className="mb-20 sm:mb-28 space-y-8">
+        <div className="mb-16 sm:mb-24 space-y-6">
+          <div className="mono-label text-ink-tertiary">
+            [ ABOUT ME ]
+          </div>
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-normal tracking-tightest leading-[1.1] text-ink">
-            There are probably easier ways to explain me.
+            There are probably easier ways to introduce me.
           </h1>
 
           <div className="text-sm sm:text-base text-ink-tertiary font-mono tracking-widest space-y-1.5 pt-2">
-            <p>Software engineer.</p>
-            <p>Founder.</p>
-            <p>Son.</p>
-            <p>Brother.</p>
-            <p>Friend.</p>
-            <p>Twenty-three.</p>
+            <p>Software engineer. Founder. CTO. Son. Brother. Friend. Twenty-three.</p>
           </div>
 
           <p className="text-ink font-medium text-xl sm:text-2xl pt-2">
-            None of them really explain anything.
+            All of them are true. None of them are quite enough.
           </p>
         </div>
 
-        {/* Narrative Flow */}
+        {/* Narrative Content */}
         <div className="space-y-16 sm:space-y-24 text-lg sm:text-xl font-normal text-ink-secondary leading-relaxed">
 
-          {/* Chapter 1: The Root */}
+          {/* Section 1: The Curiosity & The Shift */}
           <div className="space-y-5">
             <p>
-              I write code. I build things. I spend an unreasonable amount of time trying to make ideas become real. Sometimes that means software. Sometimes it means a company. Sometimes it means sitting in front of a screen at a ridiculous hour wondering why something that should work absolutely refuses to work.
+              Before any of those words meant anything, I was just a kid who was curious about how things worked. I wanted to know what was behind the thing. Why it behaved the way it did. Whether it could be made better. Whether an idea that existed only in my head could somehow become real.
             </p>
-            <p>I like that part of myself.</p>
-            <p>I like making things.</p>
-            <p>But the older I get, the less interested I become in being defined by what I can build.</p>
+            <p>I suppose I never really grew out of that.</p>
+            <p>I just found computers.</p>
+            <p>
+              There is a particular satisfaction in building something from nothing. A blank screen becomes a system. A thought becomes a product. A problem becomes something you can touch, test, break, rebuild and eventually hand to another person.
+            </p>
+            <p>That feeling has followed me for years.</p>
+            <p>
+              I have built software, websites, systems, businesses and things that never made it past the first idea. I have spent absurd hours chasing bugs that turned out to be one missing character. I have started things before I was ready and learned by being forced to become ready.
+            </p>
             <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
-              Because there are things I care about that have nothing to do with code.
+              Eventually, I realized that what I loved was not really code.
             </p>
-            <div className="pl-4 border-l border-editorial-border/80 text-ink space-y-1 text-base sm:text-lg font-mono tracking-wider py-1 my-4">
-              <p>My mother.</p>
-              <p>My brothers.</p>
-              <p>The people I love.</p>
-              <p>The people who have loved me.</p>
-              <p>The people who changed me.</p>
-              <p>The person I am becoming.</p>
-            </div>
-            <p className="italic text-ink-tertiary">That is probably where the real story starts.</p>
+            <p className="text-ink font-medium">It was creation.</p>
+            <p>Code was simply one of the languages I happened to learn.</p>
           </div>
 
           <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
 
-          {/* Chapter 2: Thinking & Remembering */}
-          <div className="space-y-4">
-            <p>I grew up caring deeply about things.</p>
-            <p>I do not know if that is a particularly useful trait.</p>
-            <p>Sometimes it is.</p>
-            <p>Sometimes it makes everything heavier than it needs to be.</p>
-            <p>I remember things. Small things.</p>
-            <p>A sentence someone said years ago.</p>
-            <p>The way someone looked at me when they were trying not to say something.</p>
-            <p>A conversation that should have ended when it ended but somehow continued in my head for days.</p>
-            <p>I think about people. Probably too much.</p>
-            <p>I wonder what they meant. What they needed. What I missed. What I should have said. What I should have left unsaid.</p>
-            <p className="text-ink font-normal">
-              I have learned to live with the fact that my mind does not always know when to stop.
+          {/* Section 2: People & Overthinking */}
+          <div className="space-y-5">
+            <p>But there was another side of me developing alongside the engineer.</p>
+            <p className="text-ink font-normal">The part that cared about people.</p>
+            <p>
+              I have always been unusually interested in people. I remember small things. Conversations. Expressions. A sentence someone said years ago that they probably forgot five minutes later. The strange weight a moment can acquire long after it has passed.
             </p>
-            <p className="font-mono text-sm tracking-widest text-ink-tertiary uppercase">Mostly.</p>
+            <p>For a long time, I thought this was something I needed to outgrow.</p>
+            <p className="text-ink font-medium">I don't anymore.</p>
+            <p>It has made me more thoughtful. It has also made me overthink things I should probably have left alone.</p>
+            <p className="italic text-ink-tertiary">That is part of the deal.</p>
+            <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
+              I think being human is partly learning which things deserve your attention and which things deserve your peace.
+            </p>
           </div>
 
           <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
 
-          {/* Chapter 3: Family */}
+          {/* Section 3: Roots & Family */}
           <div className="space-y-6">
             <h2 className="text-2xl sm:text-4xl text-ink font-normal tracking-tight leading-snug">
-              The people who mattered before any of this existed are still the people who matter most.
+              Somewhere along the way, I also began to understand that the people who knew me before I had anything to prove would probably always know me best.
             </h2>
             <div className="space-y-4">
-              <p>My mother is one of the most important people in my life.</p>
-              <p>So are my two brothers.</p>
-              <p>They knew me before there was anything impressive about me.</p>
-              <p>Before the software. Before the companies. Before the ambitions had names. Before I knew how to explain myself.</p>
-              <p>They knew me when I was just Kris.</p>
-              <p className="text-ink font-medium">That matters.</p>
+              <div className="pl-4 border-l border-editorial-border/80 text-ink font-medium text-lg sm:text-xl">
+                <p>My mother. My brothers.</p>
+              </div>
+              <p>
+                They knew me before the projects, before the companies, before the ambitions had names. Before there was anything particularly impressive about me.
+              </p>
+              <p className="text-ink font-medium">They knew Kris.</p>
               <p>There is something humbling about being known before you have built an identity.</p>
-              <p>The world eventually starts giving you labels.</p>
-              <p className="text-ink-tertiary font-mono text-sm sm:text-base tracking-wider py-1">
-                Engineer. Founder. CTO. Student. Leader. Whatever comes next.
+              <p>The world is very good at giving people titles. Engineer. Founder. CTO. Leader. Whatever comes next.</p>
+              <p className="text-ink font-normal">Family remembers the person underneath them.</p>
+              <p className="italic text-ink-tertiary">That matters to me more than I probably say.</p>
+            </div>
+          </div>
+
+          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
+
+          {/* Section 4: Ambition & Meaning */}
+          <div className="space-y-6">
+            <h2 className="text-2xl sm:text-4xl text-ink font-normal tracking-tight leading-snug">
+              I am ambitious. Very.
+            </h2>
+            <div className="space-y-4">
+              <p>
+                I want to build companies. I want to become exceptional at engineering. I want financial freedom. I want to create opportunities for other people. I want to make things that are genuinely useful. I want to walk into rooms that once seemed impossibly far away and know that I earned my way there.
               </p>
-              <p>Family remembers the person underneath them.</p>
-              <p>I think a lot of what I want from life comes back to that.</p>
-              <p>I want to succeed. I want to build. I want financial freedom. I want to build companies that work. I want to create things that people actually use. I want to become an exceptional engineer. I want to create opportunities for other people. I want to have enough freedom that my time belongs to me.</p>
+              <p>I want a lot from life.</p>
               <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
-                But beneath all of that is something much simpler.
+                But I have become increasingly suspicious of ambition when it exists only for its own sake.
               </p>
-              <p>I want the people I love to be okay.</p>
-              <p>I want my mother to have peace.</p>
-              <p>I want my brothers to have opportunities.</p>
-              <p>I want to be able to look at the people who believed in me before I had anything to show them and know that I did something meaningful with the life I was given.</p>
-              <p>Not just something impressive.</p>
-              <p className="text-ink font-medium">Something real.</p>
-              <p className="italic text-ink-tertiary">I think there is a difference.</p>
-            </div>
-          </div>
-
-          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
-
-          {/* Chapter 4: Ambition */}
-          <div className="space-y-6">
-            <h2 className="text-2xl sm:text-4xl text-ink font-normal tracking-tight leading-snug">
-              I have always been ambitious. That part of me is not going anywhere.
-            </h2>
-            <div className="space-y-4">
-              <p>I want more. Sometimes I want much more.</p>
-              <p>I want to build things that seem too large when I first imagine them.</p>
-              <p>I want to sit in rooms I once thought were impossible to enter.</p>
-              <p>I want to build companies.</p>
-              <p>I want to make enough money that money stops deciding what is possible for the people I care about.</p>
-              <p>I want to look back at twenty-three and know I used the advantage of being young.</p>
-              <p>But ambition has a strange way of making you believe that the next thing will finally be enough.</p>
-              <p>Then you get there. And there is another thing. Another number. Another problem. Another mountain.</p>
-              <p>I am learning that there is nothing wrong with wanting more.</p>
-              <p className="text-ink font-normal">
-                The danger is forgetting that you already have something.
-              </p>
-              <p>I do not want to become so obsessed with the life I am trying to build that I miss the life happening while I build it.</p>
-              <p className="italic text-ink-tertiary">That is one of the things I am still learning.</p>
-            </div>
-          </div>
-
-          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
-
-          {/* Chapter 5: Self & Conviction */}
-          <div className="space-y-6">
-            <p>I am also learning that I am not as simple as I sometimes wish I were.</p>
-            <p>I can be stubborn. I can be intense. I can be very certain. I can have an opinion and defend it like it is the last piece of ground left on earth.</p>
-            <p>And then sometimes I discover I was wrong.</p>
-            <p>I am getting better at that part. Not at being wrong. I am probably still very good at that. I mean admitting it.</p>
-            <p>I have strong beliefs. I do not want to become so agreeable that nobody knows what I actually think.</p>
-            <p>I would rather be challenged than empty.</p>
-            <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
-              But I have also learned that conviction without humility becomes something ugly.
-            </p>
-            <div className="space-y-2 pl-4 border-l border-editorial-border/80 text-ink">
-              <p>Being certain does not make you right.</p>
-              <p>Being questioned does not make you weak.</p>
-              <p>Changing your mind does not mean you never believed anything.</p>
-            </div>
-            <p>Sometimes it means you cared enough about truth to follow it somewhere you did not expect.</p>
-            <p>I am trying to become that kind of person.</p>
-            <p>Someone with convictions who can still listen.</p>
-            <p>Someone who can lead without believing he always knows the answer.</p>
-            <p>Someone who can be strong without becoming hard.</p>
-            <p className="text-ink font-medium">That last one matters to me.</p>
-          </div>
-
-          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
-
-          {/* Chapter 6: Responsibility & Flaws */}
-          <div className="space-y-6">
-            <h2 className="text-2xl sm:text-4xl text-ink font-normal tracking-tight leading-snug">
-              Because I have been hurt. And I have hurt people. Both things are true.
-            </h2>
-            <div className="space-y-4">
-              <p>I do not want to tell a story where I am always the person who was wronged. That would be dishonest.</p>
-              <p>I have made mistakes. I have misunderstood people. I have expected things from people they were not ready to give. I have held onto things because letting go felt too much like losing.</p>
-              <p>I have sometimes wanted certainty when another person was still trying to understand themselves.</p>
-              <p>I have said things badly. I have reacted badly. I have been afraid.</p>
-              <p>Sometimes fear has disguised itself as certainty. Sometimes care has disguised itself as control. Sometimes wanting something badly has made it difficult to see that wanting it does not mean I am entitled to it.</p>
-              <p className="text-ink font-normal">Those are difficult things to admit.</p>
-              <p>But I think there is a certain freedom in no longer needing your own story to make you the hero.</p>
-              <p className="text-ink font-medium text-xl sm:text-2xl pt-2">
-                I am not always the hero.
-              </p>
-              <div className="space-y-1 pl-4 border-l border-editorial-border/80 text-ink-secondary">
-                <p>Sometimes I am the lesson.</p>
-                <p>Sometimes I am the person who needed to grow.</p>
-                <p>Sometimes I am the person who should have listened.</p>
+              <div className="space-y-1 pl-4 border-l border-editorial-border/80 text-ink-tertiary font-mono text-sm sm:text-base tracking-wider py-1">
+                <p>There is always another milestone.</p>
+                <p>Another number.</p>
+                <p>Another company.</p>
+                <p>Another mountain.</p>
               </div>
-              <p>I am trying to become comfortable with that.</p>
-            </div>
-          </div>
-
-          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
-
-          {/* Chapter 7: Love */}
-          <div className="space-y-6">
-            <h2 className="text-2xl sm:text-4xl text-ink font-normal tracking-tight leading-snug">
-              Love has probably taught me more about myself than almost anything else.
-            </h2>
-            <div className="space-y-4">
-              <p>I love deeply. When someone matters to me, they matter.</p>
-              <p>I remember things. I notice things. I think about them when they are not there. I imagine futures. I attach meaning to moments that other people might forget by tomorrow.</p>
-              <p>Sometimes that is beautiful. Sometimes it is exhausting. Sometimes it is both.</p>
-              <p>I have loved people with an intensity that made me brave. It also made me vulnerable.</p>
-              <p>I have wanted people to choose me with the same certainty with which I chose them.</p>
-              <p>I have learned that you cannot ask another person to give you certainty simply because you are afraid of uncertainty.</p>
-              <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
-                I have learned that love is not ownership. It is not control.
+              <p>
+                You can spend your entire life climbing and never stop long enough to ask whether you actually like where you are going.
               </p>
-              <p>It is not convincing someone to stay. It is not getting the ending you wanted.</p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-ink font-mono text-sm sm:text-base py-3">
-                <p>— Sometimes love is choosing.</p>
-                <p>— Sometimes it is waiting.</p>
-                <p>— Sometimes it is speaking.</p>
-                <p>— Sometimes it is listening.</p>
-                <p>— Sometimes it is staying.</p>
-                <p>— Sometimes it is letting someone go.</p>
-              </div>
-              <p>Without turning them into an enemy simply because they could not remain yours.</p>
-              <p className="italic text-ink-tertiary">I am still learning that.</p>
-              <p>I have been loved in ways I will always carry.</p>
-              <p>I have been hurt by people I never wanted to lose.</p>
-              <p>I have hurt people I never wanted to hurt.</p>
-              <p>There are people I wish I had understood better while I still had the chance. There are conversations I would have differently now. There are moments I would return to, not necessarily to change what happened, but to meet them with the understanding I have now.</p>
-              <p>There are people who are no longer in my life who still exist somewhere inside my memory. Not loudly. Just there.</p>
-              <p className="text-ink font-normal">
-                I think that is one of the strange things about people. Someone can leave your life and still remain part of the person you became.
-              </p>
-            </div>
-          </div>
-
-          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
-
-          {/* Chapter 8: Pain */}
-          <div className="space-y-6">
-            <p>Pain is strange too.</p>
-            <p>You can understand exactly why something hurt and still have it hurt. You can know what happened. You can know why it happened. You can accept it intellectually.</p>
-            <p>And some morning it is still sitting there.</p>
-            <p>I used to think understanding something should make it easier to carry. Now I think sometimes understanding simply changes the shape of what you carry.</p>
-            <p>I do not want to romanticize pain. Pain hurts. Some things were unfair. Some things were my fault. Some things were nobody's fault. Some things simply happened.</p>
-            <p>I did not come through everything untouched. I do not think anyone does.</p>
-            <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
-              But I also do not want the worst things that happened to me to become the most important things about me.
-            </p>
-            <p>There is too much life left. That is something I believe very strongly.</p>
-          </div>
-
-          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
-
-          {/* Chapter 9: Age & Growth */}
-          <div className="space-y-6">
-            <p>I am twenty-three. I know how young that sounds.</p>
-            <p>I also know that twenty-three feels different after you have already learned that some mistakes cost more than you thought they would.</p>
-            <p>I have a long way to go. There is still so much I do not understand. There are things I believe today that I will probably question later. There are things I am certain about now that life will probably make more complicated.</p>
-            <p>I am okay with that.</p>
-            <p className="text-ink font-normal">
-              I think growing up is partly realizing that certainty is not the same thing as wisdom.
-            </p>
-            <p>You do not become wiser because you have all the answers. Sometimes you become wiser because you become less afraid of saying, I do not know.</p>
-            <p>I am learning. Slowly. Not gracefully every time. But genuinely.</p>
-          </div>
-
-          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
-
-          {/* Chapter 10: Engineering & Building */}
-          <div className="space-y-6">
-            <h2 className="text-2xl sm:text-4xl text-ink font-normal tracking-tight leading-snug">
-              And somewhere in all of this, there is the engineer in me.
-            </h2>
-            <div className="space-y-4">
-              <p>I like complicated things. I like taking something apart and discovering how it works. I like problems that initially look bigger than me. I like the strange moment when something that existed only in my head becomes something real.</p>
-              <p>That is why I code. Not because programming is my identity. Because building is.</p>
-              <p className="text-ink-tertiary font-mono text-sm sm:text-base tracking-wider py-1">
-                I have built websites. Applications. Cloud systems. Dashboards. Infrastructure. AI projects. Products.
-              </p>
-              <p>I teach because I enjoy watching someone understand something that frightened them five minutes earlier.</p>
-              <p>There is something beautiful about that moment. A person suddenly realizes they are capable of understanding more than they thought. I like being part of that.</p>
-              <p>I am a co-founder and CTO of Muncheez. I am building it because I believe in the idea and because I want to see whether something that begins as an idea can survive reality.</p>
-              <p>That is the interesting part. Not saying you will build something. Actually trying. Building it. Breaking it. Learning. Starting again.</p>
-              <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
-                I think that pattern exists everywhere in my life.
-              </p>
-              <div className="pl-4 border-l border-editorial-border/80 text-ink font-mono text-base sm:text-lg space-y-1">
-                <p>I build.</p>
-                <p>I break.</p>
-                <p>I learn.</p>
-                <p>I rebuild.</p>
-              </div>
-              <p>Sometimes the thing that needs rebuilding is software. Sometimes it is an idea. Sometimes it is myself. I do not think those are completely different processes.</p>
-            </div>
-          </div>
-
-          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
-
-          {/* Chapter 11: Purpose & People */}
-          <div className="space-y-6">
-            <p>I want to create things that matter. But I also want to teach. I want to help people. I want to create opportunities. I want the things I learn to move beyond me.</p>
-            <p>Knowledge that only benefits the person holding it feels incomplete. There is something deeply satisfying about helping another person see a possibility they could not see before.</p>
-            <p className="text-ink font-normal text-xl sm:text-2xl">
-              That is why I keep coming back to people.
-            </p>
-            <p>Everything eventually comes back to people.</p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-ink-tertiary font-mono text-sm tracking-wider">
-              <p>Technology is people.</p>
-              <p>Companies are people.</p>
-              <p>Money is people.</p>
-              <p>Love is people.</p>
-              <p>Success is people.</p>
-              <p>Failure is people.</p>
-            </div>
-            <p>So when I think about the future, I do not only think about what I want to build. I think about who I want around me when I build it.</p>
-            <p>I want my family. I want my brothers. I want my mother.</p>
-            <p>I want friends who know me well enough to call me out when I am becoming someone I do not want to be.</p>
-            <p>I want people who can disagree with me without leaving. I want people who can laugh with me. People who can sit in silence with me. People who know the difference between the person I am becoming and the person I was.</p>
-            <p className="text-ink font-normal">
-              I want love that is honest. Not perfect. Honest.
-            </p>
-            <p>I want a life where ambition and tenderness can exist in the same person. Where I can build something enormous and still care about an ordinary evening. Where I can become successful without becoming distant. Where I can provide for people without believing that providing gives me ownership over them. Where I can be strong without becoming cold. Where I can win without needing someone else to lose.</p>
-          </div>
-
-          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
-
-          {/* Chapter 12: A Full Life */}
-          <div className="space-y-6">
-            <h2 className="text-2xl sm:text-4xl text-ink font-normal tracking-tight leading-snug">
-              I want a big life. But I do not necessarily want a loud one. I want a full one.
-            </h2>
-            <div className="space-y-4">
-              <p>There is a difference.</p>
-              <p>I want to see the world. I want to build companies. I want to create things that people depend on. I want financial freedom. I want to become exceptional at engineering. I want to make my family proud. I want to help people. I want to love well. I want to have stories worth remembering.</p>
+              <p>So I want the big life.</p>
+              <p>But I don't want a life that is merely big.</p>
               <p className="text-ink font-normal text-xl sm:text-2xl">
-                I want to wake up one day much older and realize that I actually lived instead of spending the whole time preparing to live.
+                I want one that is full.
               </p>
-              <p>I do not know exactly how I get there. Sometimes the distance between where I am and where I want to be feels enormous. Sometimes I have no idea what I am doing. Sometimes I am tired. Sometimes I lose confidence. Sometimes I wonder if I am moving quickly enough.</p>
-              <p>Then I remember that there is only one way forward. You take the next step. Then another.</p>
-              <p>You build the thing in front of you. You make the call. You apologize. You try again. You let go. You begin. You continue.</p>
+              <p className="italic text-ink-tertiary">There is a difference.</p>
+              <p>
+                I want my mother to have peace. I want my brothers to have opportunities. I want to be able to give more than I take. I want the people who believed in me before there was anything to believe in to eventually look at my life and feel that their faith was not misplaced.
+              </p>
+              <p>Not because I owe them some grand achievement.</p>
+              <p className="text-ink font-medium text-xl sm:text-2xl">
+                Because love deserves a return.
+              </p>
             </div>
           </div>
 
           <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
 
-          {/* Chapter 13: Summary of Learning */}
-          <div className="space-y-4">
-            <p>Maybe that is what growing actually is. Not becoming a completely different person. Becoming more honest about the person you already are.</p>
-            <p>I do not want to become uncomplicated. I do not think I ever will.</p>
-            <p>I care too much. I think too much. I want too much. I love deeply. I question things. I get things wrong. I change. I contradict myself.</p>
-            <div className="space-y-2 pl-4 border-l border-editorial-border/80 text-ink">
-              <p>I am learning where my strength ends and my ego begins.</p>
-              <p>I am learning what deserves to be held tightly and what needs to be released.</p>
-              <p>I am learning that some people are meant to stay and some are meant to change you and leave.</p>
-              <p>I am learning that being hurt does not give me permission to hurt others.</p>
-              <p>I am learning that success without people is a strange kind of failure.</p>
-              <p>I am learning that love without freedom is not really love.</p>
-              <p>I am learning that the life I build matters, but the person who builds it matters more.</p>
-            </div>
-            <p>I am still figuring it out. I think I always will. And strangely, I no longer see that as a problem.</p>
-            <p>There is something beautiful about knowing there are still versions of yourself you have not met.</p>
-            <p>There are still places I have not seen. People I have not loved yet. Things I have not built. Mistakes I have not made. Lessons I have not learned. Mornings I have not woken up to. Conversations I have not had. Lives I have not touched.</p>
+          {/* Section 5: Humility, Reality & Mistakes */}
+          <div className="space-y-6">
+            <p>I have not always understood that everything worth building requires a certain amount of humility.</p>
+            <p>Software will teach you quickly.</p>
+            <p>You can be absolutely convinced that your solution is correct and watch the system fail anyway.</p>
+            <p>Life is less polite.</p>
+            <p>People do the same thing.</p>
+            <p>You can be certain you understand someone and discover that you only understood your version of them.</p>
+            <p>You can be convinced you are right and later realize that being right about the facts did not mean you were right about the person.</p>
             <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
-              The story is not finished. It is barely getting interesting.
+              I have been wrong. More than once.
             </p>
+            <p>
+              I have been stubborn. I have been intense. I have confused conviction with certainty. I have sometimes held onto things because letting go felt too much like losing.
+            </p>
+            <p>I have hurt people. I have been hurt.</p>
+            <p className="italic text-ink-tertiary">Neither fact makes me special.</p>
+            <p className="text-ink font-normal">What matters is what you do with the truth once you can no longer avoid it.</p>
+            <div className="space-y-2 pl-4 border-l border-editorial-border/80 text-ink py-2">
+              <p>I have learned that strength without humility eventually becomes hardness.</p>
+              <p>That caring about someone does not give you ownership of them.</p>
+              <p>That wanting something badly does not make you entitled to it.</p>
+              <p>That sometimes the most honest thing you can say is, <span className="italic">I don't know.</span></p>
+              <p>And that changing your mind, when truth demands it, is not weakness. It is intellectual courage.</p>
+            </div>
+          </div>
+
+          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
+
+          {/* Section 6: Conviction & Balance */}
+          <div className="space-y-5">
+            <p>
+              I don't want to become a person who is agreeable simply to be liked. I have strong convictions. I intend to keep them.
+            </p>
+            <p>But I want my convictions to survive contact with reality.</p>
+            <p>
+              I want to be capable of listening without surrendering my principles. Of leading without assuming I always know the answer. Of being strong without becoming hard.
+            </p>
+            <p>That balance is still being built.</p>
+            <p className="text-ink font-medium">So am I.</p>
+          </div>
+
+          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
+
+          {/* Section 7: Love, People & Closure */}
+          <div className="space-y-6">
+            <h2 className="text-2xl sm:text-4xl text-ink font-normal tracking-tight leading-snug">
+              Love has been one of my better teachers.
+            </h2>
+            <div className="space-y-4">
+              <p>I have loved deeply enough to discover how little control we actually have over the people we care about.</p>
+              <p>
+                There are people I have loved badly before I understood how to love better. People I wish I had understood while I still had the chance. People who left and somehow remained part of the person I became.
+              </p>
+              <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
+                I used to think closure meant understanding why something happened.
+              </p>
+              <p>
+                Now I think sometimes closure is simply deciding that something can matter without continuing to own you.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-ink font-mono text-sm sm:text-base py-2">
+                <p>— People leave.</p>
+                <p>— Some stay.</p>
+                <p>— Some change you.</p>
+                <p>— Some become memories.</p>
+              </div>
+              <p>None of that makes the time meaningless.</p>
+              <p className="text-ink font-normal">
+                A person can disappear from your life and still leave something behind in the architecture of who you are.
+              </p>
+              <p className="italic text-ink-tertiary">
+                That, to me, is one of the strangest and most beautiful things about being alive.
+              </p>
+            </div>
+          </div>
+
+          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
+
+          {/* Section 8: Pain & Age 23 */}
+          <div className="space-y-5">
+            <p>Pain works the same way.</p>
+            <p>I don't romanticize it. Pain hurts.</p>
+            <p>Some things were unfair. Some were my fault. Some were nobody's fault. Some things simply happened.</p>
+            <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
+              But I don't want the worst things that have happened to me to become the most important things about me.
+            </p>
+            <p>There is too much life left for that.</p>
+            <p>I am twenty-three.</p>
+            <p>Young enough to have an unreasonable amount of ambition and old enough to know that ambition alone is not a plan.</p>
+            <p>There is still an enormous amount I don't know.</p>
+            <p>
+              There are things I believe today that life will complicate. There are mistakes I haven't made yet. People I haven't met. Places I haven't seen. Things I haven't built.
+            </p>
+            <p>That doesn't frighten me as much as it used to.</p>
+            <p className="text-ink font-normal">
+              I think growing up is partly realizing that uncertainty isn't an enemy.
+            </p>
+            <p className="text-ink font-medium">It is simply the price of having a future.</p>
+          </div>
+
+          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
+
+          {/* Section 9: Engineering, Muncheez & Teaching */}
+          <div className="space-y-6">
+            <h2 className="text-2xl sm:text-4xl text-ink font-normal tracking-tight leading-snug">
+              And that brings me back to building.
+            </h2>
+            <div className="space-y-4">
+              <p>Today, I am a software engineer and the co-founder and CTO of Muncheez.</p>
+              <p>
+                Muncheez is one of the places where the abstract part of me meets reality. An idea becomes a product. A product becomes a system. A system has users. Users have expectations. Reality starts asking questions your pitch deck never prepared you for.
+              </p>
+              <p>That is the part I find fascinating.</p>
+              <p>It is easy to say you are going to build something.</p>
+              <p>It is much harder to build it, watch it break, accept that you were wrong, fix it, and try again.</p>
+              <p>I like that process. Maybe because it feels familiar.</p>
+              <div className="pl-4 border-l border-editorial-border/80 text-ink font-mono text-base sm:text-lg space-y-1 my-2">
+                <p>Build.</p>
+                <p>Break.</p>
+                <p>Learn.</p>
+                <p>Rebuild.</p>
+              </div>
+              <p>I have done it with software. I suspect I will spend the rest of my life doing it with myself.</p>
+              <p>I also teach.</p>
+              <p>
+                I like the moment when someone understands something they were convinced was beyond them. There is a quiet transformation in that moment. Not because they learned a piece of information, but because their idea of what they are capable of has changed.
+              </p>
+              <p className="text-ink font-medium">That matters to me.</p>
+              <p>Knowledge becomes more valuable when it leaves you.</p>
+              <p>
+                I don't want to accumulate things simply so I can say I have them. I want what I learn to become useful somewhere else.
+              </p>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-ink-tertiary font-mono text-sm tracking-wider py-2">
+                <p>— A product.</p>
+                <p>— A company.</p>
+                <p>— A lesson.</p>
+                <p>— An opportunity.</p>
+              </div>
+              <p>A person who becomes more capable because I happened to cross their path.</p>
+            </div>
+          </div>
+
+          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
+
+          {/* Section 10: Legacy & Present Living */}
+          <div className="space-y-6">
+            <p className="text-ink font-normal text-xl sm:text-2xl">
+              Perhaps that is what success means to me now.
+            </p>
+            <p>Not simply having more. Leaving more behind.</p>
+            <p>
+              Because eventually, every title disappears. Every company changes. Every product gets replaced. Every achievement becomes something you did rather than something you are doing.
+            </p>
+            <p className="text-ink font-normal">What remains is the effect you had on people.</p>
+            <div className="space-y-1 pl-4 border-l border-editorial-border/80 text-ink-secondary py-1">
+              <p>The people you helped.</p>
+              <p>The people you loved.</p>
+              <p>The people you taught.</p>
+              <p>The people who became braver because you believed in them.</p>
+              <p>The people who remember you kindly when you are no longer in the room.</p>
+            </div>
+            <p className="italic text-ink-tertiary">That is the kind of legacy I understand.</p>
+            <p>I want to build things that last. But I also want to build a life worth being present for.</p>
+            <p>
+              I want to see the world. I want to build companies. I want to become excellent at what I do. I want financial freedom. I want my family close. I want friendships that can survive disagreement. I want love that is honest rather than perfect. I want to be able to provide without confusing provision with ownership. I want ambition and tenderness to occupy the same person. I want to win without needing someone else to lose.
+            </p>
+            <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
+              And one day, much older than I am now, I want to look back and realize I didn't spend my entire life preparing to live.
+            </p>
+            <p className="text-ink font-medium">I actually lived.</p>
+          </div>
+
+          <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
+
+          {/* Section 11: The Privilege of Being Young */}
+          <div className="space-y-5">
+            <p>I don't know exactly what that life looks like yet. I'm not supposed to.</p>
+            <p>At twenty-three, the map is still being drawn.</p>
+            <p>For now, there is work to do.</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-ink font-mono text-sm tracking-wider py-2">
+              <p>— Things to build.</p>
+              <p>— People to love.</p>
+              <p>— Mistakes to make.</p>
+              <p>— Apologies to give.</p>
+              <p>— Places to go.</p>
+              <p>— Ideas to test.</p>
+            </div>
+            <p>Versions of myself to outgrow.</p>
+            <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
+              Maybe that is the privilege of being young: not knowing who you will become, while still having enough time to become someone worthy of the life ahead of you.
+            </p>
+            <p>I don't want to become uncomplicated. I care too much. I think too much. I want too much. I get things wrong. I change my mind. I build things. I break things. I begin again.</p>
+            <p>There are still versions of myself I haven't met.</p>
+            <p className="text-ink font-medium">I think that is enough reason to keep going.</p>
           </div>
 
           <div className="w-12 h-[1px] bg-editorial-border opacity-60" />
 
           {/* Conclusion */}
           <div className="space-y-4">
-            <p>So this is me. Not the résumé. Not the title. Not the polished version. Just Kris.</p>
-            <p>A son. A brother. A friend. A builder. A man who has loved and lost. A man who has been wrong. A man who is still ambitious enough to believe he can build something extraordinary. A man still learning how to carry everything that comes with being alive.</p>
+            <p>So, for now, I'm Kris.</p>
             <div className="space-y-1 font-mono text-sm sm:text-base text-ink-tertiary tracking-wider py-2">
               <p>Twenty-three.</p>
-              <p>Still here.</p>
-              <p>Still trying.</p>
-              <p>Still loving.</p>
+              <p>Still becoming.</p>
               <p>Still building.</p>
             </div>
-            <p>And perhaps that is the most honest thing I can tell you.</p>
+            <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
+              And, thankfully, nowhere near finished.
+            </p>
 
-            <div className="pt-20 sm:pt-28 space-y-6">
-              <blockquote className="text-2xl sm:text-4xl md:text-5xl font-normal tracking-tight leading-tight text-ink italic max-w-2xl">
-                "It's only after we've lost everything that we're free to do anything."
-              </blockquote>
-              <p className="font-mono text-sm sm:text-base tracking-widest text-ink-tertiary">
-                — Brad Pitt, <span className="italic">Fight Club</span>
+            <div className="pt-20 sm:pt-28 space-y-4">
+              <p className="text-4xl sm:text-6xl md:text-7xl font-normal tracking-tightest text-ink">
+                Nowhere near finished.
+              </p>
+              <p className="font-mono text-base sm:text-lg tracking-widest text-ink-tertiary">
+                — Kris
               </p>
             </div>
           </div>
