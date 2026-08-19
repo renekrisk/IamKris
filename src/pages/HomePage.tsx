@@ -25,12 +25,28 @@ export const HomePage: React.FC = () => {
           </p>
         </div>
 
-        <div className="pt-2">
+        <div className="pt-4 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
           <Link
             to="/about-me"
             className="inline-flex items-center space-x-2 text-sm sm:text-base font-mono tracking-wider text-ink hover:text-ink-secondary transition-colors group"
           >
             <span>More about me</span>
+            <span className="group-hover:translate-x-1.5 transition-transform duration-200">→</span>
+          </Link>
+
+          <Link
+            to="/what-i-do"
+            className="inline-flex items-center space-x-2 text-sm sm:text-base font-mono tracking-wider text-ink-secondary hover:text-ink transition-colors group"
+          >
+            <span>What I do</span>
+            <span className="group-hover:translate-x-1.5 transition-transform duration-200">→</span>
+          </Link>
+
+          <Link
+            to="/contact"
+            className="inline-flex items-center space-x-2 text-sm sm:text-base font-mono tracking-wider text-ink-secondary hover:text-ink transition-colors group"
+          >
+            <span>Contact me</span>
             <span className="group-hover:translate-x-1.5 transition-transform duration-200">→</span>
           </Link>
         </div>
