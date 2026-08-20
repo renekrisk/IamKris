@@ -373,7 +373,33 @@ export const AboutMePage: React.FC = () => {
                 <p className="text-ink font-normal text-lg sm:text-2xl">That's a pretty good feeling.</p>
               </div>
             )}
-            {activePage === 'family'     && <ComingSoon label="Family" />}
+            {activePage === 'family'     && (
+              <div className="space-y-6 text-base sm:text-xl font-normal text-ink-secondary leading-relaxed">
+                <p className="text-ink font-normal text-lg sm:text-2xl">
+                  These are the people who can ruin your reputation in under thirty seconds.
+                </p>
+                <p>Not because they know anything terrible.</p>
+                <p className="text-ink font-medium">Because they know everything.</p>
+                <p>
+                  They remember the embarrassing versions. The stupid decisions. The phases. The things you conveniently forgot happened.
+                </p>
+                <p>And somehow, they still answer when you call.</p>
+                <p>
+                  There is something very particular about being loved by people who knew you before you had anything to prove.
+                </p>
+                <p>No performance.</p>
+                <p>No impressive version.</p>
+                <p>Just you, showing up hungry, loud, broke, tired, annoying.</p>
+                <p className="italic text-ink-tertiary">Sometimes all at once.</p>
+                <p>
+                  That kind of love is difficult to explain because it doesn't really ask for an explanation.
+                </p>
+                <p className="text-ink font-medium text-lg sm:text-2xl">You belong.</p>
+                <p>That's enough.</p>
+                <p>I've been lucky with that.</p>
+                <p>And I don't take it lightly.</p>
+              </div>
+            )}
             {activePage === 'love'       && <ComingSoon label="Love" />}
             {activePage === 'belief'     && <ComingSoon label="What I Believe" />}
             {activePage === 'resilience' && <ComingSoon label="Resilience" />}
