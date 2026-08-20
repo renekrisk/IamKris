@@ -333,7 +333,46 @@ export const AboutMePage: React.FC = () => {
 
             {/* Page content switcher */}
             {activePage === 'story'      && <StoryPage />}
-            {activePage === 'why-code'   && <ComingSoon label="Why I Code" />}
+            {activePage === 'why-code'   && (
+              <div className="space-y-6 text-base sm:text-xl font-normal text-ink-secondary leading-relaxed">
+                <p className="text-ink font-normal text-lg sm:text-2xl">I like making things exist.</p>
+                <p>That's really it.</p>
+                <p>
+                  An idea can sit in my head for three weeks doing absolutely nothing except annoying me. Then one day I'll open my laptop and decide it needs to become real.
+                </p>
+                <p>I like that moment.</p>
+                <p className="text-ink font-medium">
+                  The gap between <em className="font-normal italic">"someone should make this"</em> and <em className="font-normal italic">"fuck it, I'll make it."</em>
+                </p>
+                <p>
+                  There's something satisfying about taking a thing that only existed in your head and forcing it into the physical world. Suddenly it has a shape. It does something. Someone else can touch it.
+                </p>
+                <p>That never gets old.</p>
+                <p>
+                  And yeah, sometimes I spend six hours trying to fix something that should have taken twenty minutes.
+                </p>
+                <p>Sometimes the computer wins.</p>
+                <p className="italic text-ink-tertiary">I pretend it didn't.</p>
+                <p>But underneath all the code, that's what keeps pulling me back.</p>
+                <p className="text-ink font-medium">Curiosity.</p>
+                <p>What happens if I try this?</p>
+                <p>What if this actually works?</p>
+                <p>What if I make it bigger?</p>
+                <p>What if nobody has done it because nobody was stupid enough to try?</p>
+                <p className="italic text-ink-tertiary">That last one has gotten me into trouble a few times.</p>
+                <p>Probably will again.</p>
+                <p>I don't code because computers are fascinating.</p>
+                <p>People are.</p>
+                <p>Problems are.</p>
+                <p>Ideas are.</p>
+                <p>
+                  Code is just the strange little language I use to argue with reality until it gives me something back.
+                </p>
+                <p>And when it finally works?</p>
+                <p className="text-ink font-medium text-lg sm:text-2xl pt-2">Yeah.</p>
+                <p className="text-ink font-normal text-lg sm:text-2xl">That's a pretty good feeling.</p>
+              </div>
+            )}
             {activePage === 'family'     && <ComingSoon label="Family" />}
             {activePage === 'love'       && <ComingSoon label="Love" />}
             {activePage === 'belief'     && <ComingSoon label="What I Believe" />}
