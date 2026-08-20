@@ -32,7 +32,7 @@ const ComingSoon: React.FC<{ label: string }> = ({ label }) => (
     <p className="font-mono text-xs tracking-widest text-ink-tertiary uppercase">
       {label}
     </p>
-    <p className="text-ink-secondary text-base sm:text-lg leading-relaxed">
+    <p className="text-ink-secondary text-xs sm:text-sm md:text-base leading-relaxed">
       This page is being written.
     </p>
   </div>
@@ -40,12 +40,12 @@ const ComingSoon: React.FC<{ label: string }> = ({ label }) => (
 
 // ─── THE STORY ─────────────────────────────────────────────────────────────────
 const StoryPage: React.FC = () => (
-  <div className="space-y-16 sm:space-y-20 text-base sm:text-xl font-normal text-ink-secondary leading-relaxed">
+  <div className="space-y-12 sm:space-y-16 text-xs sm:text-sm md:text-base font-normal text-ink-secondary leading-relaxed">
 
     {/* CH 01 */}
-    <div className="space-y-6">
+    <div className="space-y-4">
       <SectionLabel>CHAPTER 01 / UNEXPECTED</SectionLabel>
-      <div className="space-y-6">
+      <div className="space-y-4">
         <p>
           There is this strange period of being young where everyone keeps asking what you're going to do with your life while you're still trying to understand what the hell happened to the last five years.
         </p>
@@ -62,7 +62,7 @@ const StoryPage: React.FC = () => (
         <p>Would he ask why I stopped doing certain things?</p>
         <p>Would he recognise the person underneath all the things I've collected since then?</p>
         <p>I don't know.</p>
-        <p className="text-ink font-normal text-lg sm:text-2xl pt-2">
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg pt-1">
           That's probably what I'm trying to figure out.
         </p>
       </div>
@@ -71,10 +71,10 @@ const StoryPage: React.FC = () => (
     <Hairline />
 
     {/* CH 02 */}
-    <div className="space-y-6">
+    <div className="space-y-4">
       <SectionLabel>CHAPTER 02 / IMPRESSIVE</SectionLabel>
-      <div className="space-y-6">
-        <p className="text-ink font-normal text-lg sm:text-2xl">
+      <div className="space-y-4">
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg">
           I've never been particularly interested in becoming impressive.
         </p>
         <p>Useful, maybe. Capable, definitely. But impressive?</p>
@@ -87,7 +87,7 @@ const StoryPage: React.FC = () => (
         <p>A number in a bank account.</p>
         <p>A photograph.</p>
         <p>A room full of people who clap when you walk in.</p>
-        <p className="text-ink font-medium text-lg sm:text-xl">
+        <p className="text-ink font-medium text-xs sm:text-sm md:text-base">
           None of those things can tell you what kind of person you are when the room is empty.
         </p>
         <p>Who are you when nobody is watching?</p>
@@ -102,16 +102,16 @@ const StoryPage: React.FC = () => (
     <Hairline />
 
     {/* CH 03 */}
-    <div className="space-y-6">
+    <div className="space-y-4">
       <SectionLabel>CHAPTER 03 / THE MIDDLE</SectionLabel>
-      <div className="space-y-6">
+      <div className="space-y-4">
         <p>I've had enough time with myself now to know that I'm not always the person I want to be.</p>
         <p>
           I've been selfish and stubborn. I've said things I shouldn't have said, held onto things long after they stopped being good for me, and wanted to be understood while sometimes being terrible at understanding anyone else.
         </p>
         <p>There are things I've done that I'm proud of. There are things I wouldn't defend if you put me in a courtroom.</p>
         <p>And then there is everything in between.</p>
-        <p className="text-ink font-medium text-lg sm:text-2xl">Most of a person lives there. In the middle.</p>
+        <p className="text-ink font-medium text-sm sm:text-base md:text-lg">Most of a person lives there. In the middle.</p>
         <p>That's where I've spent most of my time.</p>
         <p>Somewhere between confidence and doubt.</p>
         <p>Ambition and exhaustion.</p>
@@ -125,7 +125,7 @@ const StoryPage: React.FC = () => (
         <p>I laugh when I'm uncomfortable.</p>
         <p>I disappear into my own head.</p>
         <p>I want to build things that outlive the excitement of building them.</p>
-        <p className="text-ink font-normal text-lg sm:text-2xl pt-2">
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg pt-1">
           And underneath all of it, I'm still trying to make sense of people.
         </p>
         <p className="italic text-ink-tertiary">Maybe that's why I care about them so much.</p>
@@ -135,10 +135,10 @@ const StoryPage: React.FC = () => (
     <Hairline />
 
     {/* CH 04 */}
-    <div className="space-y-6">
+    <div className="space-y-4">
       <SectionLabel>CHAPTER 04 / SOFTNESS</SectionLabel>
-      <div className="space-y-6">
-        <p className="text-ink font-normal text-lg sm:text-2xl">People are strange.</p>
+      <div className="space-y-4">
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg">People are strange.</p>
         <p>We spend our entire lives wanting to be known and then spend half of them hiding.</p>
         <p>We want love, but we're terrified of what love can ask from us.</p>
         <p>We want freedom, but we also want someone to stay.</p>
@@ -148,7 +148,7 @@ const StoryPage: React.FC = () => (
         <p>I've learned that someone can love you and still hurt you. That someone can be good and still make a terrible decision. That losing someone doesn't automatically mean either of you was the villain.</p>
         <p>Sometimes life just puts two people in a situation neither of them knows how to handle.</p>
         <p>That lesson cost me something. Most worthwhile lessons do.</p>
-        <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg pt-1">
           But if there's one thing I don't want to lose because of the things that have happened to me, it's softness.
         </p>
         <p>Not weakness. Softness. There's a difference.</p>
@@ -160,17 +160,17 @@ const StoryPage: React.FC = () => (
         <p>To love people without trying to own them.</p>
         <p>To lose without becoming bitter.</p>
         <p>I'm still a long way from all of that. Which is fine.</p>
-        <p className="text-ink font-medium text-lg sm:text-xl">I'm young. I'm allowed to be.</p>
+        <p className="text-ink font-medium text-xs sm:text-sm md:text-base">I'm young. I'm allowed to be.</p>
       </div>
     </div>
 
     <Hairline />
 
     {/* CH 05 */}
-    <div className="space-y-6">
+    <div className="space-y-4">
       <SectionLabel>CHAPTER 05 / ROOTS &amp; VISION</SectionLabel>
-      <div className="space-y-6">
-        <p className="text-ink font-normal text-lg sm:text-2xl">My family helps with that.</p>
+      <div className="space-y-4">
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg">My family helps with that.</p>
         <p>They knew me before any of the things people might eventually care about.</p>
         <p>Before achievements. Before ambition. Before anyone had a reason to be impressed.</p>
         <p>They remember the annoying version.</p>
@@ -182,7 +182,7 @@ const StoryPage: React.FC = () => (
           There is something strangely comforting about knowing that no matter how far you go, there are people who can look at you and see the child underneath the man.
         </p>
         <p className="text-ink font-medium">It keeps you honest. At least a little.</p>
-        <p className="text-ink font-normal text-xl sm:text-3xl pt-4">And I want to go far. Very far.</p>
+        <p className="text-ink font-normal text-base sm:text-lg md:text-xl pt-2">And I want to go far. Very far.</p>
         <p>I don't have a particularly modest vision for my life. I've tried. It didn't work.</p>
         <p>
           I want to build things that matter. To sit in rooms I once thought were completely inaccessible to someone like me. To travel until airports feel like bus stations.
@@ -192,14 +192,14 @@ const StoryPage: React.FC = () => (
         </p>
         <p>I want a family of my own one day, and to be the kind of father whose children aren't afraid of him.</p>
         <p>I want to be successful, yes.</p>
-        <p className="text-ink font-normal text-lg sm:text-2xl pt-2">
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg pt-1">
           But more than that, I want to remain recognisable to myself when I am.
         </p>
         <p>
           Because there is a version of success that looks incredible from the outside and feels completely empty from inside.
         </p>
         <p className="text-ink font-medium">I'm not interested in that one.</p>
-        <p className="text-ink font-medium text-lg sm:text-2xl">
+        <p className="text-ink font-medium text-sm sm:text-base md:text-lg">
           I'd rather have a difficult life that feels like mine than an easy one that belongs to somebody else.
         </p>
         <p>And maybe that's really what all of this is. Trying to make a life that feels like mine.</p>
@@ -210,16 +210,16 @@ const StoryPage: React.FC = () => (
     <Hairline />
 
     {/* CH 06 */}
-    <div className="space-y-6">
+    <div className="space-y-4">
       <SectionLabel>CHAPTER 06 / MINE</SectionLabel>
-      <div className="space-y-6">
+      <div className="space-y-4">
         <p>There are days when I feel like I'm exactly where I'm supposed to be.</p>
         <p>There are days when I have absolutely no idea what I'm doing.</p>
         <p>There are days when I'm convinced I'm going to change everything.</p>
         <p>There are days when getting out of bed feels like enough of an achievement.</p>
         <p className="text-ink font-medium">Usually, all four versions of me are telling the truth.</p>
         <p>So I stopped trying to choose one.</p>
-        <p className="text-ink font-normal text-lg sm:text-2xl pt-2">I'm just here.</p>
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg pt-1">I'm just here.</p>
         <p>Twenty-three.</p>
         <p>Still making mistakes.</p>
         <p>Still falling in love with ideas, people, places and possibilities.</p>
@@ -227,17 +227,17 @@ const StoryPage: React.FC = () => (
         <p>Still trying to become a man I respect when I'm alone with myself.</p>
         <p>I don't know exactly where this goes.</p>
         <p className="italic text-ink-tertiary">That's probably the most honest thing I can tell you.</p>
-        <p className="text-ink font-normal text-xl sm:text-2xl pt-2">
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg pt-1">
           But I have a feeling it's going to be interesting.
         </p>
         <p className="text-ink font-medium">And if it isn't...</p>
         <p className="italic text-ink-tertiary">well.</p>
 
-        <div className="pt-16 sm:pt-20 space-y-4 border-t border-editorial-border/60">
-          <h2 className="text-3xl sm:text-5xl md:text-6xl font-normal tracking-tightest text-ink leading-tight">
+        <div className="pt-12 sm:pt-16 space-y-3 border-t border-editorial-border/60">
+          <h2 className="text-2xl sm:text-4xl font-normal tracking-tight text-ink leading-tight">
             I'll make it interesting.
           </h2>
-          <p className="font-mono text-sm sm:text-base tracking-widest text-ink-tertiary">— Kris</p>
+          <p className="font-mono text-xs sm:text-sm tracking-widest text-ink-tertiary">— Kris</p>
         </div>
       </div>
     </div>
@@ -257,22 +257,22 @@ export const AboutMePage: React.FC = () => {
   };
 
   return (
-    <div className="py-12 sm:py-24 md:py-32">
+    <div className="py-8 sm:py-16 md:py-24">
       <div className="max-w-5xl mx-auto px-5 sm:px-8 md:px-12">
 
         {/* ── Hero ──────────────────────────────────────────────────────── */}
-        <div className="mb-10 sm:mb-14 max-w-3xl space-y-3">
+        <div className="mb-8 sm:mb-12 max-w-3xl space-y-3">
           <div className="mono-label text-ink-tertiary">[ ABOUT KRIS ]</div>
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-normal tracking-tightest leading-tight text-ink">
+          <h1 className="text-2xl sm:text-4xl font-normal tracking-tight leading-tight text-ink">
             I wasn't supposed to end up here.
           </h1>
-          <p className="text-ink-secondary text-base sm:text-xl font-normal leading-relaxed">
+          <p className="text-ink-secondary text-xs sm:text-sm md:text-base font-normal leading-relaxed">
             Not because anything went terribly wrong. Quite the opposite. A lot of things went right. Which, I've learned, can be just as confusing.
           </p>
         </div>
 
         {/* ── About-page index (mobile: horizontal scroll strip) ─────────── */}
-        <div className="lg:hidden sticky top-16 z-30 bg-paper/90 backdrop-blur-md py-3 -mx-5 px-5 border-y border-editorial-border/60 mb-10 overflow-x-auto no-scrollbar">
+        <div className="lg:hidden sticky top-16 z-30 bg-paper/90 backdrop-blur-md py-3 -mx-5 px-5 border-y border-editorial-border/60 mb-8 overflow-x-auto no-scrollbar">
           <div className="flex items-center space-x-1 whitespace-nowrap">
             <span className="mono-label text-[10px] text-ink-tertiary/40 mr-3 shrink-0">ABOUT</span>
             {PAGES.map(p => (
@@ -281,7 +281,7 @@ export const AboutMePage: React.FC = () => {
                 onClick={() => navigate(p.id)}
                 className={`font-mono text-[11px] tracking-wider px-3 py-1 rounded transition-colors shrink-0 ${
                   activePage === p.id
-                    ? 'text-ink'
+                    ? 'text-ink font-medium'
                     : 'text-ink-tertiary hover:text-ink'
                 }`}
               >
@@ -292,22 +292,22 @@ export const AboutMePage: React.FC = () => {
         </div>
 
         {/* ── Main grid ─────────────────────────────────────────────────── */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14">
 
           {/* Desktop sticky sidebar nav */}
           <aside className="hidden lg:block lg:col-span-3">
-            <div className="sticky top-32 border-l border-editorial-border/60 pl-4 py-1">
+            <div className="sticky top-28 border-l border-editorial-border/60 pl-4 py-1">
               <div className="mono-label text-[10px] text-ink-tertiary/50 pb-4">
                 ABOUT
               </div>
-              <nav className="space-y-4">
+              <nav className="space-y-3">
                 {PAGES.map(p => (
                   <button
                     key={p.id}
                     onClick={() => navigate(p.id)}
                     className={`block text-left font-mono text-xs tracking-wider transition-colors leading-snug ${
                       activePage === p.id
-                        ? 'text-ink'
+                        ? 'text-ink font-medium'
                         : 'text-ink-tertiary hover:text-ink'
                     }`}
                   >
@@ -326,7 +326,7 @@ export const AboutMePage: React.FC = () => {
 
             {/* Active page label */}
             {activePage !== 'story' && (
-              <div className="mono-label text-[10px] sm:text-xs text-ink-tertiary tracking-widest uppercase border-b border-editorial-border/40 pb-2 mb-8">
+              <div className="mono-label text-[10px] sm:text-xs text-ink-tertiary tracking-widest uppercase border-b border-editorial-border/40 pb-2 mb-6">
                 {activePageMeta.label}
               </div>
             )}
@@ -334,8 +334,8 @@ export const AboutMePage: React.FC = () => {
             {/* Page content switcher */}
             {activePage === 'story'      && <StoryPage />}
             {activePage === 'why-code'   && (
-              <div className="space-y-6 text-base sm:text-xl font-normal text-ink-secondary leading-relaxed">
-                <p className="text-ink font-normal text-lg sm:text-2xl">I like making things exist.</p>
+              <div className="space-y-4 text-xs sm:text-sm md:text-base font-normal text-ink-secondary leading-relaxed">
+                <p className="text-ink font-normal text-sm sm:text-base md:text-lg">I like making things exist.</p>
                 <p>That's really it.</p>
                 <p>
                   An idea can sit in my head for three weeks doing absolutely nothing except annoying me. Then one day I'll open my laptop and decide it needs to become real.
@@ -369,13 +369,13 @@ export const AboutMePage: React.FC = () => {
                   Code is just the strange little language I use to argue with reality until it gives me something back.
                 </p>
                 <p>And when it finally works?</p>
-                <p className="text-ink font-medium text-lg sm:text-2xl pt-2">Yeah.</p>
-                <p className="text-ink font-normal text-lg sm:text-2xl">That's a pretty good feeling.</p>
+                <p className="text-ink font-medium text-sm sm:text-base md:text-lg pt-1">Yeah.</p>
+                <p className="text-ink font-normal text-sm sm:text-base md:text-lg">That's a pretty good feeling.</p>
               </div>
             )}
             {activePage === 'family'     && (
-              <div className="space-y-6 text-base sm:text-xl font-normal text-ink-secondary leading-relaxed">
-                <p className="text-ink font-normal text-lg sm:text-2xl">
+              <div className="space-y-4 text-xs sm:text-sm md:text-base font-normal text-ink-secondary leading-relaxed">
+                <p className="text-ink font-normal text-sm sm:text-base md:text-lg">
                   These are the people who can ruin your reputation in under thirty seconds.
                 </p>
                 <p>Not because they know anything terrible.</p>
@@ -394,7 +394,7 @@ export const AboutMePage: React.FC = () => {
                 <p>
                   That kind of love is difficult to explain because it doesn't really ask for an explanation.
                 </p>
-                <p className="text-ink font-medium text-lg sm:text-2xl">You belong.</p>
+                <p className="text-ink font-medium text-sm sm:text-base md:text-lg">You belong.</p>
                 <p>That's enough.</p>
                 <p>I've been lucky with that.</p>
                 <p>And I don't take it lightly.</p>
@@ -408,7 +408,7 @@ export const AboutMePage: React.FC = () => {
             {activePage === 'idk'        && <ComingSoon label="Things I Don't Understand" />}
 
             {/* ── Page navigation footer ─────────────────────────────── */}
-            <div className="mt-16 sm:mt-24 pt-8 border-t border-editorial-border/40">
+            <div className="mt-12 sm:mt-16 pt-6 border-t border-editorial-border/40">
               <div className="flex items-center justify-between gap-4 font-mono text-xs tracking-wider">
                 {/* Prev */}
                 {(() => {
