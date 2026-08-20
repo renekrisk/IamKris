@@ -3,51 +3,66 @@ import { Link } from 'react-router-dom';
 
 export const HomePage: React.FC = () => {
   return (
-    <div className="min-h-[75vh] flex flex-col justify-center py-12 sm:py-16 md:py-24">
-      <div className="max-w-3xl mx-auto px-6 sm:px-8 md:px-12 space-y-10 sm:space-y-12">
+    <div className="min-h-[calc(100vh-100px)] flex flex-col justify-center py-4 sm:py-8">
+      <div className="max-w-2xl mx-auto px-5 sm:px-8 space-y-4 sm:space-y-5">
 
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-normal tracking-tightest leading-[1.12] text-ink">
-          Hi, I am Kris. Welcome to this side of the internet.
+        {/* Title */}
+        <h1 className="text-2xl sm:text-4xl font-normal tracking-tight leading-none text-ink">
+          Hi. I'm Kris.
         </h1>
 
-        <div className="space-y-6 text-lg sm:text-xl font-normal text-ink-secondary leading-relaxed">
+        {/* Compact, Single-Viewport Prose */}
+        <div className="space-y-2.5 text-xs sm:text-sm md:text-base font-normal text-ink-secondary leading-relaxed sm:leading-relaxed">
           <p>
-            I code. I build things. Sometimes they become products, sometimes companies, sometimes just another late night spent trying to convince an idea to work. I like the feeling of making something exist where there was once nothing. But if you stay here long enough, you will probably realize that the things I build are not the most interesting thing about me.
+            I'm twenty-three, which still feels slightly ridiculous to say out loud.
           </p>
           <p>
-            I am a son. A brother. A friend. A man who loves people perhaps a little too deeply and thinks about life perhaps a little too much. I am ambitious, but I am learning that ambition is only beautiful when there is still a life underneath it. I have been loved. I have loved. I have been hurt, and I have hurt people too. I have been certain and then discovered I was wrong. I have lost things I wanted to keep. I have found parts of myself in places I never expected.
+            I make things. Sometimes I know what I'm doing. Sometimes I have an idea at 2 in the morning and spend the next three weeks finding out whether it was genius or just sleep deprivation.
           </p>
           <p>
-            I am still growing into the person I want to be.
+            A lot of my life has been spent chasing things I couldn't quite leave alone. Ideas. People. Questions. Possibilities. The occasional completely unreasonable ambition.
           </p>
           <p>
-            I think that is probably the most honest introduction I can give you.
+            Some of them worked. Some of them absolutely did not. I'm okay with that.
+          </p>
+          <p>
+            I like building things, but I don't think building things is the most interesting thing about a person. There's a whole life behind whatever eventually ends up on a screen.
+          </p>
+          <p>
+            Family. Friendship. Love. Failure. Faith. Stupid decisions. Good decisions. Long conversations. Short tempers. Starting over. Becoming a little less of an idiot every year.
+          </p>
+          <p>
+            I'm still figuring out the rest. This is, technically, a portfolio. You'll find the things I've built, the things I'm working on, the places I've been, and probably a few things I have no business putting on the internet.
+          </p>
+          <p className="text-ink font-medium pt-1">
+            Anyway. Welcome to this side of the internet. Have a look around.
           </p>
         </div>
 
-        <div className="pt-4 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
+        {/* Doorway Links */}
+        <div className="pt-3 flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-editorial-border/60">
           <Link
             to="/about-me"
-            className="inline-flex items-center space-x-2 text-sm sm:text-base font-mono tracking-wider text-ink hover:text-ink-secondary transition-colors group"
+            className="inline-flex items-center space-x-1.5 text-xs sm:text-sm font-mono tracking-wider text-ink hover:text-ink-secondary transition-colors group"
           >
             <span>More about me</span>
-            <span className="group-hover:translate-x-1.5 transition-transform duration-200">→</span>
+            <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
           </Link>
 
           <Link
             to="/what-i-do"
-            className="inline-flex items-center space-x-2 text-sm sm:text-base font-mono tracking-wider text-ink-secondary hover:text-ink transition-colors group"
+            className="inline-flex items-center space-x-1.5 text-xs sm:text-sm font-mono tracking-wider text-ink-secondary hover:text-ink transition-colors group"
           >
             <span>What I do</span>
-            <span className="group-hover:translate-x-1.5 transition-transform duration-200">→</span>
+            <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
           </Link>
 
           <Link
             to="/contact"
-            className="inline-flex items-center space-x-2 text-sm sm:text-base font-mono tracking-wider text-ink-secondary hover:text-ink transition-colors group"
+            className="inline-flex items-center space-x-1.5 text-xs sm:text-sm font-mono tracking-wider text-ink-secondary hover:text-ink transition-colors group"
           >
             <span>Contact me</span>
-            <span className="group-hover:translate-x-1.5 transition-transform duration-200">→</span>
+            <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
           </Link>
         </div>
 
