@@ -3,9 +3,9 @@ export interface Song {
   artist: string;
   album: string;
   year: string;
-  audioUrl: string; // Full length audio track
+  audioUrl: string;
   spotifyUrl: string;
-  note: string; // Short personal note alongside the song
+  note?: string;
 }
 
 // Kris's Song for the Week
@@ -14,8 +14,7 @@ export const mySongForTheWeek: Song = {
   artist: "Ellie Goulding",
   album: "Lights",
   year: "2010",
-  // Full-length audio stream
-  audioUrl: "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3",
+  audioUrl: "/music/lights.mp3",
   spotifyUrl: "https://open.spotify.com/track/11ozIUBoXAgRTVWelDn4pL",
-  note: "The song I've had on repeat all week. Some tracks just hit differently at 2 AM."
+  note: "This is my go to song this week."
 };
