@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import gsap from 'gsap';
+import { MailIcon, GithubIcon, LinkedinIcon, TwitterXIcon, PhoneIcon } from './Icons';
 
 const navLinks = [
   { label: 'Home', path: '/', number: '01' },
@@ -91,8 +92,48 @@ export const SiteNavigation: React.FC = () => {
           KRIS
         </Link>
 
-        {/* Center / Right: Phone Numbers & Menu Button */}
-        <div className="flex items-center space-x-4 md:space-x-8">
+        {/* Center / Right: Phone Numbers, Social Icons & Menu Button */}
+        <div className="flex items-center space-x-4 sm:space-x-6">
+          {/* Top Bar Vector Icons (Desktop & Tablet) */}
+          <div className="hidden sm:flex items-center space-x-3 text-ink-secondary">
+            <a
+              href="mailto:kriskamau25@gmail.com"
+              title="Email"
+              className="p-1.5 hover:text-ink transition-colors"
+            >
+              <MailIcon className="w-4 h-4" />
+            </a>
+            <a
+              href="https://github.com/renekrisk"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="GitHub (@renekrisk)"
+              className="p-1.5 hover:text-ink transition-colors"
+            >
+              <GithubIcon className="w-4 h-4" />
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="LinkedIn"
+              className="p-1.5 hover:text-ink transition-colors"
+            >
+              <LinkedinIcon className="w-4 h-4" />
+            </a>
+            <a
+              href="https://x.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="X / Twitter"
+              className="p-1.5 hover:text-ink transition-colors"
+            >
+              <TwitterXIcon className="w-4 h-4" />
+            </a>
+          </div>
+
+          <div className="hidden md:block w-[1px] h-4 bg-editorial-border" />
+
           {/* Phone Numbers (Tablet & Desktop) */}
           <div className="hidden md:flex items-center space-x-3 mono-label text-[0.7rem] text-ink-secondary">
             <a href="tel:+905391338912" className="hover:text-ink transition-colors">
@@ -154,11 +195,14 @@ export const SiteNavigation: React.FC = () => {
           </ul>
         </nav>
 
-        {/* Bottom Minimal Contact Metadata Footer */}
-        <div className="kn-meta-footer max-w-4xl mx-auto w-full pt-6 sm:pt-8 border-t border-editorial-border grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mono-label text-xs text-ink-secondary">
+        {/* Bottom Minimal Contact & Social Icons Footer */}
+        <div className="kn-meta-footer max-w-4xl mx-auto w-full pt-6 sm:pt-8 border-t border-editorial-border grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mono-label text-xs text-ink-secondary">
           {/* Phone Numbers */}
           <div className="space-y-1">
-            <span className="block text-[0.65rem] text-ink-tertiary uppercase">PHONE</span>
+            <span className="block text-[0.65rem] text-ink-tertiary uppercase flex items-center gap-1">
+              <PhoneIcon className="w-3 h-3" />
+              <span>PHONE</span>
+            </span>
             <div className="flex flex-col space-y-1 text-ink font-mono text-xs">
               <a href="tel:+905391338912" className="hover:underline">
                 +90 539 133 8912
@@ -171,16 +215,53 @@ export const SiteNavigation: React.FC = () => {
 
           {/* Email */}
           <div className="space-y-1">
-            <span className="block text-[0.65rem] text-ink-tertiary uppercase">EMAIL</span>
+            <span className="block text-[0.65rem] text-ink-tertiary uppercase flex items-center gap-1">
+              <MailIcon className="w-3 h-3" />
+              <span>EMAIL</span>
+            </span>
             <a href="mailto:kriskamau25@gmail.com" className="block text-ink font-mono hover:underline text-xs">
               kriskamau25@gmail.com
             </a>
           </div>
 
+          {/* Social Icons Bar (Navbar Bottom Footer) */}
+          <div className="space-y-1">
+            <span className="block text-[0.65rem] text-ink-tertiary uppercase">CONNECT</span>
+            <div className="flex items-center space-x-3 pt-0.5 text-ink">
+              <a
+                href="https://github.com/renekrisk"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="GitHub (@renekrisk)"
+                className="p-1 hover:text-ink-secondary transition-colors"
+              >
+                <GithubIcon className="w-4 h-4" />
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LinkedIn"
+                className="p-1 hover:text-ink-secondary transition-colors"
+              >
+                <LinkedinIcon className="w-4 h-4" />
+              </a>
+              <a
+                href="https://x.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="X / Twitter"
+                className="p-1 hover:text-ink-secondary transition-colors"
+              >
+                <TwitterXIcon className="w-4 h-4" />
+              </a>
+            </div>
+          </div>
+
           {/* Location */}
           <div className="space-y-1 sm:text-right lg:text-right">
             <span className="block text-[0.65rem] text-ink-tertiary uppercase">LOCATION</span>
-            <span className="text-ink font-mono text-xs">NAIROBI, KENYA / ANKARA, TÜRKIYE</span>
+            <span className="text-ink font-mono text-xs">NAIROBI / ANKARA</span>
           </div>
         </div>
       </div>
