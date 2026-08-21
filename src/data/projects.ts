@@ -17,12 +17,12 @@ export const projectsData: Project[] = [
     id: 'vuka',
     number: '02',
     title: 'VUKA',
-    role: 'Lead Developer & Architect',
+    role: 'Lead Developer & Architect — Current',
     whatItIs: 'Digital product and client engagement application built for Ink Coaching.',
     whyIBuiltIt: 'To deliver an intuitive, high-performance web experience that connects clients with structured coaching workflows.',
     whatIDid: 'Designed and engineered the core frontend interface, interaction model, and data integration layer.',
     technology: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
-    year: '2026',
+    year: '2025 — PRESENT',
     link: 'https://vuka.inkcoaching.co.ke'
   },
   {
@@ -57,7 +57,7 @@ export const projectsData: Project[] = [
     whyIBuiltIt: 'To streamline member transactions, account operations, and real-time administrative workflows.',
     whatIDid: 'Engineered responsive front-end dashboard interfaces and real-time operational tools serving 6,000+ active users.',
     technology: ['React', 'TypeScript', 'REST APIs', 'Dashboard Systems'],
-    year: '2023 — 2024'
+    year: '2024 — 2025'
   },
   {
     id: 'serverless-website-analytics',
@@ -68,7 +68,7 @@ export const projectsData: Project[] = [
     whyIBuiltIt: 'To achieve cost-effective, high-scale web analytics and SQL query processing without managing server infrastructure.',
     whatIDid: 'Architected and deployed cloud infrastructure using AWS CDK, Lambda, S3, and Athena for serverless log ingestion and analytics.',
     technology: ['AWS CDK', 'AWS Lambda', 'Amazon S3', 'Amazon Athena', 'TypeScript'],
-    year: '2023'
+    year: '2025'
   },
   {
     id: 'react-serverless-aws-terraform',
@@ -79,6 +79,6 @@ export const projectsData: Project[] = [
     whyIBuiltIt: 'To establish automated, repeatable production infrastructure for single-page applications backed by cloud APIs.',
     whatIDid: 'Authored declarative Terraform modules automating AWS resource provisioning, S3 static hosting, CloudFront CDN, and API Gateway.',
     technology: ['Terraform', 'AWS', 'Serverless', 'React', 'CloudFront'],
-    year: '2023'
+    year: '2025'
   }
 ];

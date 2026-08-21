@@ -95,8 +95,8 @@ export const SiteNavigation: React.FC = () => {
         <div className="flex items-center space-x-4 md:space-x-8">
           {/* Phone Numbers (Tablet & Desktop) */}
           <div className="hidden md:flex items-center space-x-3 mono-label text-[0.7rem] text-ink-secondary">
-            <a href="tel:+90539133892" className="hover:text-ink transition-colors">
-              +90 539 133 892
+            <a href="tel:+905391338912" className="hover:text-ink transition-colors">
+              +90 539 133 8912
             </a>
             <span className="text-ink-tertiary">/</span>
             <a href="tel:+254769032075" className="hover:text-ink transition-colors">
@@ -160,8 +160,8 @@ export const SiteNavigation: React.FC = () => {
           <div className="space-y-1">
             <span className="block text-[0.65rem] text-ink-tertiary uppercase">PHONE</span>
             <div className="flex flex-col space-y-1 text-ink font-mono text-xs">
-              <a href="tel:+90539133892" className="hover:underline">
-                +90 539 133 892
+              <a href="tel:+905391338912" className="hover:underline">
+                +90 539 133 8912
               </a>
               <a href="tel:+254769032075" className="hover:underline">
                 +254 769 032 075

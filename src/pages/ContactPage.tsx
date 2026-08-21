@@ -47,8 +47,8 @@ export const ContactPage: React.FC = () => {
             <div className="flex flex-col space-y-3 font-mono text-lg sm:text-xl text-ink">
               <div>
                 <span className="block text-[0.6rem] text-ink-tertiary uppercase mb-0.5">TÜRKIYE (ANKARA)</span>
-                <a href="tel:+90539133892" className="hover:underline">
-                  +90 539 133 892
+                <a href="tel:+905391338912" className="hover:underline">
+                  +90 539 133 8912
                 </a>
               </div>
               <div>
