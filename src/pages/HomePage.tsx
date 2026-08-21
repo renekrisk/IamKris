@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MusicPlayerPill } from '../components/MusicPlayerPill';
 
 export const HomePage: React.FC = () => {
   return (
@@ -39,9 +38,6 @@ export const HomePage: React.FC = () => {
             Anyway. Welcome to this side of the internet. Have a look around.
           </p>
         </div>
-
-        {/* Interactive Song of the Week Option */}
-        <MusicPlayerPill />
 
         {/* Doorway Links */}
         <div className="pt-3 flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-editorial-border/60">
