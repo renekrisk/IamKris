@@ -41,6 +41,7 @@ export const AboutPage: React.FC = () => {
             <div className="space-y-2">
               <span className="block text-ink-tertiary text-[0.65rem] uppercase">CURRENT INTERESTS</span>
               <ul className="space-y-1.5 text-ink-secondary">
+                <li>→ Formula 1 (Mercedes, Ferrari, Cadillac '26)</li>
                 <li>→ Type Systems & Compilers</li>
                 <li>→ High-Frame-Rate UI Engines</li>
                 <li>→ Editorial & Digital Typography</li>

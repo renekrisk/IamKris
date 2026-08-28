@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const PAGES = [
   { id: 'story',     label: 'The Story' },
   { id: 'why-code',  label: 'Why I Code' },
+  { id: 'formula-one', label: 'Formula 1' },
   { id: 'family',    label: 'Family' },
   { id: 'love',      label: 'Love' },
   { id: 'belief',    label: 'What I Believe' },
@@ -245,6 +246,175 @@ const StoryPage: React.FC = () => (
   </div>
 );
 
+// ─── FORMULA ONE ───────────────────────────────────────────────────────────────
+const FormulaOnePage: React.FC = () => (
+  <div className="space-y-12 sm:space-y-16 text-xs sm:text-sm md:text-base font-normal text-ink-secondary leading-relaxed">
+
+    {/* Section 1: The Obsession */}
+    <div className="space-y-4">
+      <SectionLabel>CHAPTER F1 / THE OBSESSION</SectionLabel>
+      <div className="space-y-4">
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg">
+          There is no sport on Earth quite like Formula 1.
+        </p>
+        <p>
+          Twenty human beings strap themselves into 1,000-horsepower carbon-fiber land rockets, pulling 5G in the torrential rain at 350 km/h, while 50 engineers sit in a pit garage staring at telemetry telepaths, arguing over 0.02 seconds of tyre degradation.
+        </p>
+        <p>
+          It's half gladiatorial combat, half hyper-advanced aerospace research, and 100% ridiculous.
+        </p>
+        <p className="text-ink font-medium">
+          I don't just watch F1; I am completely hooked on the obsession.
+        </p>
+        <p>
+          The obsession with marginal gains. The relentless pursuit of efficiency where a 0.001-second improvement is celebrated like a miracle. The sheer engineering brutality paired with psychological warfare at 200 mph.
+        </p>
+      </div>
+    </div>
+
+    <Hairline />
+
+    {/* Section 2: Team & Driver Allegiances */}
+    <div className="space-y-6">
+      <SectionLabel>THE ALLEGIANCES / TEAMS & DRIVERS</SectionLabel>
+      <p className="text-ink font-medium">Where my loyalty & long-term bets lie on the grid:</p>
+
+      <div className="grid grid-cols-1 gap-6 pt-2">
+
+        {/* Mercedes / George Russell */}
+        <div className="p-6 bg-canvas/80 border border-editorial-border/80 rounded-sm space-y-3 relative overflow-hidden group hover:border-emerald-500/40 transition-colors">
+          <div className="flex items-center justify-between">
+            <span className="mono-label text-[10px] tracking-widest text-emerald-600 font-mono">MERCEDES-AMG PETRONAS</span>
+            <span className="font-mono text-[10px] text-ink-tertiary">#63</span>
+          </div>
+          <h3 className="text-lg font-medium text-ink">George Russell / Ice-Cold Precision</h3>
+          <p className="text-xs sm:text-sm text-ink-secondary leading-relaxed">
+            George Russell has that uncanny, zero-flinch corporate-assassin precision. The guy looks like he prepares a 40-slide PowerPoint pitch deck right before pulling off a zero-margin overtake down the inside of Turn 1 at Spa. Watch him lead Mercedes into the next regulation era—pure tactical discipline and relentless consistency.
+          </p>
+        </div>
+
+        {/* Ferrari / Lewis Hamilton */}
+        <div className="p-6 bg-canvas/80 border border-editorial-border/80 rounded-sm space-y-3 relative overflow-hidden group hover:border-rose-500/40 transition-colors">
+          <div className="flex items-center justify-between">
+            <span className="mono-label text-[10px] tracking-widest text-rose-600 font-mono">SCUDERIA FERRARI</span>
+            <span className="font-mono text-[10px] text-ink-tertiary">#44</span>
+          </div>
+          <h3 className="text-lg font-medium text-ink">Sir Lewis Hamilton / The Italian Crossover</h3>
+          <p className="text-xs sm:text-sm text-ink-secondary leading-relaxed">
+            Lewis Hamilton putting on Ferrari Red is the single most historic crossover sports storyline of our lifetime. You literally couldn't script a more iconic cinematic chapter. The 7-time Champion wearing Maranello scarlet under the Italian sun chasing that 8th title—it’s pure romance, high stakes, and pure racing drama.
+          </p>
+        </div>
+
+        {/* Cadillac F1 - The All-Time Gamble */}
+        <div className="p-6 bg-canvas/90 border-2 border-amber-500/40 rounded-sm space-y-3 relative overflow-hidden">
+          <div className="flex items-center justify-between">
+            <span className="mono-label text-[10px] tracking-widest text-amber-500 font-mono">CADILLAC F1 // THE ALL-TIME GAMBLE</span>
+            <span className="font-mono text-[10px] px-2 py-0.5 bg-amber-500/10 text-amber-600 font-semibold rounded">FUTURE TITAN</span>
+          </div>
+          <h3 className="text-lg font-medium text-ink">My All-Time Long Bet: Cadillac Will Dominate</h3>
+          <p className="text-xs sm:text-sm text-ink-secondary leading-relaxed">
+            People laugh when I tell them this, but mark my words: <strong>Cadillac is my ultimate all-time gamble bet in F1</strong>. Everyone underestimates what happens when American industrial muscle, clean-slate engine regulations, and unconstrained engineering capital enter Formula 1 with zero legacy bloat. They might take a beat to calibrate, but in a few years? They will be massive on this grid. I'm calling it early.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <Hairline />
+
+    {/* Section 3: Memes & Grid Reality */}
+    <div className="space-y-4">
+      <SectionLabel>CHAPTER F2 / THE MEMES & PIT WALL DICTIONARY</SectionLabel>
+      <div className="space-y-4">
+        <p className="text-ink font-medium">The unwritten rules of listening to team radio:</p>
+        
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+          <div className="p-4 border border-editorial-border/60 bg-paper/60 space-y-1">
+            <div className="font-mono text-xs text-rose-500 font-semibold">"We are checking."</div>
+            <p className="text-xs text-ink-secondary">Ferrari pit wall translation for: "We have no idea what is happening and the strategy plan just caught fire."</p>
+          </div>
+
+          <div className="p-4 border border-editorial-border/60 bg-paper/60 space-y-1">
+            <div className="font-mono text-xs text-emerald-500 font-semibold">"Bono, my tyres are dead!"</div>
+            <p className="text-xs text-ink-secondary">Driver translation for: "I am about to set three consecutive fastest laps and pull a 15-second gap."</p>
+          </div>
+
+          <div className="p-4 border border-editorial-border/60 bg-paper/60 space-y-1">
+            <div className="font-mono text-xs text-amber-500 font-semibold">"BOX BOX... STAY OUT STAY OUT!"</div>
+            <p className="text-xs text-ink-secondary">The instantaneous pit wall panic attack that causes 100 million fans to lose 5 years of life expectancy.</p>
+          </div>
+
+          <div className="p-4 border border-editorial-border/60 bg-paper/60 space-y-1">
+            <div className="font-mono text-xs text-sky-500 font-semibold">"Toto, it's called a motor race."</div>
+            <p className="text-xs text-ink-secondary">The legendary quote etched into motorsport folklore forever.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <Hairline />
+
+    {/* Section 4: Wild Concepts & Crazy F1 Ideas */}
+    <div className="space-y-4">
+      <SectionLabel>CHAPTER F3 / CRAZY CONCEPTS & FUTURE F1 IDEAS</SectionLabel>
+      <div className="space-y-4">
+        <p className="text-ink font-normal text-sm sm:text-base md:text-lg">
+          Wild F1 concepts I keep thinking about late at night:
+        </p>
+
+        <div className="space-y-4 pt-2">
+
+          <div className="p-5 border-l-2 border-ink bg-canvas/40 space-y-2">
+            <h4 className="font-medium text-sm text-ink flex items-center gap-2">
+              <span className="font-mono text-xs text-ink-tertiary">01 /</span>
+              Biomimicry Active Aerodynamics
+            </h4>
+            <p className="text-xs sm:text-sm text-ink-secondary">
+              Forget static DRS flaps. Imagine morphing carbon wings with micro-actuators inspired by falcon feathers that adjust downforce dynamically in milliseconds based on acoustic boundary layer sensors. No artificial DRS drag reduction zones—just continuous aerodynamic intelligence.
+            </p>
+          </div>
+
+          <div className="p-5 border-l-2 border-ink bg-canvas/40 space-y-2">
+            <h4 className="font-medium text-sm text-ink flex items-center gap-2">
+              <span className="font-mono text-xs text-ink-tertiary">02 /</span>
+              Holographic Ghost Qualifying Laps
+            </h4>
+            <p className="text-xs sm:text-sm text-ink-secondary">
+              For night races like Vegas, Singapore, and Monaco: project real-time laser AR ghost cars onto the circuit asphalt or driver HUD visor during Q3 laps. Drivers literally see their rival's delta ghost 10 meters ahead of them on track in real time. The ultimate pressure cooker.
+            </p>
+          </div>
+
+          <div className="p-5 border-l-2 border-ink bg-canvas/40 space-y-2">
+            <h4 className="font-medium text-sm text-ink flex items-center gap-2">
+              <span className="font-mono text-xs text-ink-tertiary">03 /</span>
+              Biometric Engine Boost (Adrenaline Sync)
+            </h4>
+            <p className="text-xs sm:text-sm text-ink-secondary">
+              Biometric steering grips measuring driver heart rate variability and adrenaline spikes. When a driver enters a high-stakes wheel-to-wheel defensive battle, the hybrid battery system unlocks a short 50kW "Adrenaline Surge" deployment—rewarding raw human courage.
+            </p>
+          </div>
+
+          <div className="p-5 border-l-2 border-ink bg-canvas/40 space-y-2">
+            <h4 className="font-medium text-sm text-ink flex items-center gap-2">
+              <span className="font-mono text-xs text-ink-tertiary">04 /</span>
+              100% Synthetic E-Fuel V10 Screams
+            </h4>
+            <p className="text-xs sm:text-sm text-ink-secondary">
+              With 100% sustainable net-zero e-fuels becoming reality, we don't need heavy whisper-quiet batteries. Bring back high-revving 18,000 RPM roaring V10/V12 engines powered by clean synthetic fuel. Motorsport gets its soul back, zero carbon footprint.
+            </p>
+          </div>
+
+        </div>
+
+        <p className="text-ink font-medium pt-4">
+          At the end of the day, F1 is the ultimate reminder that pushing technology to its absolute limit is the purest form of human ambition.
+        </p>
+      </div>
+    </div>
+
+  </div>
+);
+
 // ─── Main component ────────────────────────────────────────────────────────────
 export const AboutMePage: React.FC = () => {
   const [activePage, setActivePage] = useState<PageId>('story');
@@ -373,6 +543,7 @@ export const AboutMePage: React.FC = () => {
                 <p className="text-ink font-normal text-sm sm:text-base md:text-lg">That's a pretty good feeling.</p>
               </div>
             )}
+            {activePage === 'formula-one' && <FormulaOnePage />}
             {activePage === 'family'     && (
               <div className="space-y-4 text-xs sm:text-sm md:text-base font-normal text-ink-secondary leading-relaxed">
                 <p className="text-ink font-normal text-sm sm:text-base md:text-lg">
