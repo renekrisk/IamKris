@@ -18,6 +18,8 @@ export const App: React.FC = () => {
             <Route path="work" element={<Navigate to="/what-i-do" replace />} />
             <Route path="about-me" element={<AboutMePage />} />
             <Route path="about" element={<Navigate to="/about-me" replace />} />
+            <Route path="f1" element={<Navigate to="/about-me?tab=formula-one" replace />} />
+            <Route path="paddock" element={<Navigate to="/about-me?tab=formula-one" replace />} />
             <Route path="contact" element={<ContactPage />} />
             <Route path="*" element={<HomePage />} />
           </Route>
